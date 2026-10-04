@@ -190,7 +190,7 @@ INSTRUCTIONS = [
     "then compare the current target range (policy_rate, policy_rate_target_lower) with the effective rate (effr) "
     "and short bill yields (gov_bond_1m, gov_bond_3m, gov_bond_6m). Bills trading well below the effective rate "
     "suggest cuts are expected; at or above suggest a hold or hikes. Say that this is a rough read from bill "
-    "yields, not futures pricing.",
+    "yields, not futures pricing, and that bill supply and quoting conventions also move the gap.",
     "For trend questions, give the last few releases in a small table and describe the direction and pace.",
     "Mention any release in the calendar over the next two weeks that could change the picture.",
     "If a tool result contains `freemium_delay` with withheld_count above zero, say that a newer release exists "
